@@ -2,6 +2,7 @@ body {
     background-color: black;
     font-family: sans-serif;
     color: white;
+    margin: 0;
 }
 .card {
     background: coral;
@@ -10,10 +11,27 @@ body {
     margin: auto;
     margin-top: 10%;
     border-radius: 20px;
-    border-style: solid;
-    border-width: 4px;
-    border-color: rgb(131, 131, 242);
+    border: 2px solid rgb(131, 131, 242);
+
 }
+
+.fondo {
+    width: 100%;
+    background: url(https://a-z-animals.com/media/2022/02/couple-of-brachiosaurus-altithorax-and-a-flock-of-pterosaurs-in-a-picture-id870596224.jpg) top / cover fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}   
+
+.opaco {
+    background: rgba(0, 0, 0, 0.4);
+    background-size: fixed;
+    width: 100%;
+}
+
+
 
 h1 {
     margin: 0;
@@ -35,7 +53,7 @@ p {
     background: lightcoral;
     text-align: justify;
     font-size: 12px;
+    margin-bottom: 0;
     border-radius: 0 0 20px 20px;
-    border-width: 2px;
-    border-color: black;
+    
 }
