@@ -1,19 +1,10 @@
 body {
+    cursor: url('sauropod.png'), auto;
     background-color: black;
     font-family: sans-serif;
     color: white;
     margin: 0;
-}
-.card {
-    background: coral;
-    text-align: center;
-    width: 400px;
-    margin: auto;
-    margin-top: 10%;
-    border-radius: 20px;
-    border: 2px solid rgb(166, 166, 251);
-    box-shadow: 0 0 30px 0 #000;
-
+    z-index: 0;
 }
 
 .fondo {
@@ -32,12 +23,29 @@ body {
     width: 100%;
 }
 
+.card {
+    background: rgb(123, 78, 60);
+    text-align: center;
+    width: 400px;
+    padding: 20px 20px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: 2px solid #9f8672;
+    box-shadow: 0 0 30px 0 #000;
+    color: #eee;
 
+}
+
+.dino-card {
+    width: 140px;
+    margin: auto;
+    padding-top: 20px;
+    filter: drop-shadow(0 0 4px #000);
+}
 
 .titulo-card {
     margin: 0;
-    padding-top: 20px;
-    padding-bottom: 10px;
 }
 
 .subtitulo-card {
@@ -46,15 +54,15 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
     font-family: lato;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .contenido-card {
+    background-color: rgba(67, 38, 38, 0.5);
     padding: 20px 20px;
-    background: lightcoral;
     text-align: justify;
     font-size: 12px;
     margin-bottom: 0;
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px 20px 20px 20px;
     
 }
